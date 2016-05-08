@@ -6,7 +6,7 @@
 name: Adhellie
 
 # Short bio or description (displayed in the header)
-description: Pour le moment ce blog est en cours de réalisation et n'a aucun but précis :).
+description: Je partage ici mes travaux de développement front-end !
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/adhellie/adhellie.github.io/master/images/avatar.png
@@ -14,7 +14,7 @@ avatar: https://raw.githubusercontent.com/adhellie/adhellie.github.io/master/ima
 #
 # Flags below are optional
 #
-
+future: true
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
@@ -84,3 +84,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+
