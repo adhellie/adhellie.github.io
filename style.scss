@@ -5,6 +5,19 @@
 // IMPORTS
 //
 
+@font-face {
+  font-family: textured2;
+  font-style: normal;
+  src: url(Bushcraft/textured2.otf);
+}
+
+
+@font-face {
+  font-family: Roboto-Condensed;
+  font-style: normal;
+  src: url(Roboto/Roboto-Condensed.ttf);
+}
+
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
@@ -19,53 +32,27 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $helveticaNeue;
   color: $darkGray;
+
 }
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1020px;
   padding: 0 10px;
-  width: 100%;
+  width: 70%;
+  img {
+    max-width: 100%;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
-
-  line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
+  font-family: textured2;
 
   @include mobile {
     line-height: 1.4;
   }
-}
-
-h1 {
-  font-size: 30px;
-  a {
-    color: inherit;
-  }
-}
-
-h2 {
-  font-size: 24px;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-h4 {
-  font-size: 18px;
-  color: $gray;
-}
-
-p {
-  margin: 15px 0;
 }
 
 a {
@@ -106,9 +93,6 @@ strong, b {
   font-weight: bold;
 }
 
-img {
-  max-width: 100%;
-}
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
@@ -164,10 +148,10 @@ img {
 }
 
 .site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
+  width: 160px;
+  height: 160px;
   margin-right: 15px;
+  display: block;
 
   @include mobile {
     float: none;
@@ -177,6 +161,7 @@ img {
 
   img {
     border-radius: 5px;
+    width: 100%;
   }
 }
 
@@ -211,29 +196,37 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
+  // float: right;
+  // margin-top: 23px; // @TODO: Vertically middle align
+  // font-family: $helveticaNeue;
+  font-size: 12px;
 
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
+  // @include mobile {
+  //   float: none;
+  //   margin-top: 9px;
+  //   display: block;
+  //   font-size: 16px;
+  // }
+
+  // a {
+  //   margin-left: 20px;
+  //   color: $darkGray;
+  //   text-align: right;
+  //   font-weight: 300;
+  //   letter-spacing: 1px;
+
+  //   @include mobile {
+  //     margin: 0 10px;
+  //     color: $blue;
+  //   }
+  // }
+
+  ul {
+    padding-left: 0;
   }
 
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
+  li{
+    list-style: none;
   }
 }
 
@@ -283,7 +276,12 @@ footer {
   text-align: center;
 }
 
+
+
+@import "header";
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
