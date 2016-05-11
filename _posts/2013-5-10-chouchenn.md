@@ -31,7 +31,7 @@ texts:
         - Sous-titre de niveau 2 (facultatif)
         - Texte d’explication
 
-      Plus précisément, pour chacun des mixins présenté on a également un motif récurent :
+      Plus précisément, pour chacun des mixins présentés on a également un motif récurent :
 
         - Sous-titre de niveau 2 (facultatif)
         - Texte explicatif
