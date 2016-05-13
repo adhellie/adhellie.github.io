@@ -6,12 +6,10 @@ texts:
   -
     title: "Le design"
     text: >
-      J’ai réalisé le design de la documentation en *m’appuyant* sur la charte graphique du site web de l’agence.
+      J’ai réalisé le design de la documentation en m’appuyant sur la charte graphique du site web de l’agence.
 
         - Le logo 'chouchenn' est détourné du logo de l’agence.
-          ![alt text](/images/logo-transformation.png "transformation du logo")
         - On retrouve les trois couleurs dominante du site de l’agence.
-          ![alt text](/images/chouhenncolors.png "Les couleurs du site")
 
   -
     title: "L'experience utilisateur"
