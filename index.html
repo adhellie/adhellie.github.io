@@ -7,13 +7,13 @@ layout: default
     <article class="post">
 
       <h1 class="tt-1"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <h2 class="tt-2">{{ post.title_2 }}</h2>
+      <h2 class="tt-3">{{ post.title_2 | markdownify }}</h2>
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">En savoir plus sur ce projet</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">En savoir plus </a>
     </article>
   {% endfor %}
 </div>

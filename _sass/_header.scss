@@ -1,13 +1,16 @@
 .title {
   background-color: #fdd456;
-  color: #fff;
   font-family: textured2;
   padding-top: 200px;
   padding-bottom: 80px;
+
+  .tt-1, .tt-2{
+    color: #fff;
+  }
 }
 
 .header .title{
-text-align: center;
+  text-align: center;
 }
 
 .menu {

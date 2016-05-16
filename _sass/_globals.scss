@@ -13,6 +13,13 @@ body {
 
   font-family: textured2;
   margin-bottom: $spacerS;
+  color: $black;
+  line-height: 1;
+
+  p, a{
+    color: $black;
+  }
+
 
   @include mobile {
     line-height: 1.4;
@@ -21,12 +28,16 @@ body {
 
 .tt-1 {
   font-size: 2.857142857142857em;
-  line-height: 1;
 }
 
 .tt-2 {
   font-size: 2.142857142857143em;
-  line-height: 1;
+}
+
+.tt-3 {
+  font-size: 1.8em;
+  font-family: helveticaNeue;
+
 }
 
 a {
@@ -34,7 +45,7 @@ a {
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    text-decoration: underline;
   }
 }
 
