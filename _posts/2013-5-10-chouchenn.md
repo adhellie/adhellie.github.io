@@ -38,7 +38,7 @@ texts:
         - Exemple visuel (facultatif)
 
 
-      Pour structurer mon code HTML, j’ai utilisé le préprocesseur Jade et un fichier au format YAML répertoriant mes différents titres et textes. Jade me permettait de boucler sur mes objets YAML est d’appeler, pour chaque itération, les contenus que je voulais faire apparaître.
+      Pour structurer mon code HTML, j’ai utilisé le préprocesseur Jade et un fichier au format YAML répertoriant mes différents titres et textes. Jade me permettait de boucler sur mes objets YAML et d’appeler, pour chaque itération, les contenus que je voulais faire apparaître.
 
 
       Si vous voulez en savoir plus sur la structure je vous invite à consulter le github du projet ou vous trouverez dans [pages/index.jade](https://github.com/Switch-Company/chouchenn/blob/documentation/pages/index.jade), les différentes boucles sur le fichier [locales/en_US/home.yaml](https://github.com/Switch-Company/chouchenn/blob/documentation/locales/en_US/home.yaml).
@@ -46,10 +46,10 @@ texts:
 
 ---
 
-
 [Voir le projet](http://chouchenn.switch.paris/)
+
 Une des missions de mon stage de licence professionnelle a été de réaliser le site de la documentation d’une librairie de mixins Stylus.
-Cette librairie a été créée par les membres de l'agence dans laquelle j'ai fait mon stage : [Switch](http://switch-company.com/)
+Cette librairie a été créée par les membres de l'agence dans laquelle j'ai fais mon stage : [Switch](http://switch-company.com/)
 
 {% include text-block.html texts=page.texts %}
 

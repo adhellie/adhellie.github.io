@@ -31,9 +31,7 @@
   &:hover, &[aria-expanded=true] {
     background-color: #fff;
   }
-}
 
-.menuBtn {
   &[aria-expanded=true] img {
     width: 90px;
   }
