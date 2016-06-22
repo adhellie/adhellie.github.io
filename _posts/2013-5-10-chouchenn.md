@@ -9,7 +9,7 @@ texts:
       J’ai réalisé le design de la documentation en m’appuyant sur la charte graphique du site web de l’agence.
 
         - Le logo 'chouchenn' est détourné du logo de l’agence.
-        - On retrouve les trois couleurs dominante du site de l’agence.
+        - On retrouve les trois couleurs dominantes du site de l’agence.
 
   -
     title: "L'experience utilisateur"
@@ -47,7 +47,6 @@ texts:
 ---
 
 [Voir le projet](http://chouchenn.switch.paris/)
-
 Une des missions de mon stage de licence professionnelle a été de réaliser le site de la documentation d’une librairie de mixins Stylus.
 Cette librairie a été créée par les membres de l'agence dans laquelle j'ai fais mon stage : [Switch](http://switch-company.com/)
 
